@@ -1,3 +1,7 @@
+
+<img width="1536" height="1024" alt="ChatGPT Image Dec 29, 2025, 09_49_04 PM" src="https://github.com/user-attachments/assets/f5e5c7f3-2d06-440f-8fc3-42a3c07caf5b" />
+
+
 # LinguaCraft Live 🎙️🌍
 Real-time voice transcription & translation for Minecraft  
 **Fabric 1.21.11 + Simple Voice Chat**
