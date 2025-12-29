@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "linguacraft_live",
+  "version": "1.0.0",
+  "name": "LinguaCraft Live",
+  "description": "Live voice transcription + translation bubbles using Simple Voice Chat",
+  "authors": [
+    "Beaksbury"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.qsmp.translator.QsmpTranslatorMod"
+    ],
+    "client": [
+      "com.qsmp.translator.client.QsmpTranslatorClient"
+    ],
+    "voicechat": [
+      "com.qsmp.translator.vc.VoicechatBridgePlugin"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.x",
+    "voicechat_api": ">=2.6.0"
+  }
+}

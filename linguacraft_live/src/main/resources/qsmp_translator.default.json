@@ -1,0 +1,28 @@
+{
+  "backendUrl": "ws://127.0.0.1:8010/ws",
+  "sourceLangDefault": "es",
+  "enabledTargetLangs": [
+    "en",
+    "fr",
+    "de"
+  ],
+  "bubble": {
+    "ttlMsFinal": 6500,
+    "ttlMsPartial": 1200,
+    "maxWidthPx": 180,
+    "showOnlyWhenLooking": true,
+    "showOriginalBelow": false
+  },
+  "ranges": {
+    "fallbackProximityBlocks": 24,
+    "whisper": 6,
+    "normal": 18,
+    "shout": 32
+  },
+  "performance": {
+    "sendPartialEveryMs": 350,
+    "vadSilenceEndMs": 750,
+    "maxTranslationsPerMessage": 3,
+    "audibleWindowMs": 1300
+  }
+}

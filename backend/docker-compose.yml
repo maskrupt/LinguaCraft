@@ -1,0 +1,10 @@
+services:
+  qsmp-backend:
+    build: .
+    ports:
+      - "8010:8010"
+    environment:
+      - DEVICE=cpu
+      - WHISPER_MODEL=small
+      - SRC_LANG_DEFAULT=es
+    restart: unless-stopped
