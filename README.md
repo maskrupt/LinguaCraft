@@ -106,4 +106,4 @@ Voice is processed server-side for transcription. Inform players and obtain cons
 ---
 
 ## 📜 License
-MIT (recommended)
+MIT
